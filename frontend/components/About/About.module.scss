@@ -1,13 +1,12 @@
 @import "../../styles/mixins";
 
-.HerroContainer {
+.AboutContainer {
   width: 100%;
   padding: 9rem;
   display: flex;
   align-items: center;
-  height: 100vh;
 
-  .introText {
+  .aboutText {
     display: flex;
     flex-direction: column;
     margin: 10rem;
@@ -17,8 +16,9 @@
       margin: 0;
     }
     p {
-      font-size: 1.5rem;
-      color: rgb(243, 255, 134);
+      font-size: 2.5rem;
+      color: #fff;
+      line-height: 70px;
     }
     @include respond(tablet) {
       order: 2;
@@ -40,7 +40,7 @@
   .headshotImage {
     width: 60%;
     height: 50%;
-    border-radius: 80%;
+
     min-width: 300px;
     @include respond(tablet) {
       width: 70%;

@@ -1,17 +1,27 @@
 import React from "react";
 import styles from "./Herro.module.scss";
 
+import { motion } from "framer-motion";
+
 const Herro = () => {
   return (
     <>
       <div className={styles.HerroContainer}>
-        <div className={styles.introText}>
+        <motion.div
+          animate={{ y: 40 }}
+          transition={{ ease: "easeOut", duration: 0.8 }}
+          className={styles.introText}
+        >
           <h1>Faizan Khan</h1>
           <p>Software Engineer | Digital Artist</p>
-        </div>
-        <div className={styles.headshot}>
+        </motion.div>
+        <motion.div
+          animate={{ y: 30 }}
+          transition={{ ease: "easeOut", duration: 1.4 }}
+          className={styles.headshot}
+        >
           <img className={styles.headshotImage} src="/headshot.jpg" />
-        </div>
+        </motion.div>
       </div>
     </>
   );

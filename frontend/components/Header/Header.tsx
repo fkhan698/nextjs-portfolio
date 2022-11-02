@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Header.module.scss";
 import Link from "next/link";
 import SideMenu from "./SideMenu";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 const Header = () => {
   return (
     <div className={styles.header}>
@@ -16,8 +17,8 @@ const Header = () => {
         </ul>
 
         <div className={styles.icons}>
-          <Link href="/blog">Blog</Link>
-          <Link href="/">Home</Link>
+          <FaInstagram size="40px" />
+          <FaLinkedin size="40px" />
         </div>
       </div>
       <SideMenu />

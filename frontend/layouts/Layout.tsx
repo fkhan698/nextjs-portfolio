@@ -3,12 +3,14 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Herro from "../components/Herro/Herro";
 import Blog from "../components/Blog/Blog";
+import About from "../components/About/About";
 
 const Layout = ({}) => {
   return (
     <div className="container">
       <Header />
       <Herro />
+      <About />
       <Footer />
     </div>
   );
