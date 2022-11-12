@@ -42,6 +42,7 @@
     height: 50%;
     border-radius: 80%;
     min-width: 300px;
+
     @include respond(tablet) {
       width: 70%;
       height: 70%;

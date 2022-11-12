@@ -8,12 +8,12 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.headerContent}>
         <div className={styles.logo}>
-          <h1>Logo</h1>
+          <h1>FK</h1>
         </div>
         <ul className={styles.pageLinks}>
           <Link href="/">Home</Link>
           <Link href="/blog">Blog</Link>
-          <Link href="/">Home</Link>
+          <Link href="/">Projects</Link>
         </ul>
 
         <div className={styles.icons}>

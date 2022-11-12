@@ -2,14 +2,16 @@
 
 .AboutContainer {
   width: 100%;
-  padding: 9rem;
   display: flex;
+  margin-top: 5rem;
   align-items: center;
+  text-align: center;
 
   .aboutText {
     display: flex;
     flex-direction: column;
-    margin: 10rem;
+    margin: 0 auto;
+    max-width: 1000px;
     width: 100%;
     h1 {
       font-size: 4rem;
@@ -28,6 +30,7 @@
       }
       p {
         font-size: 1.5rem;
+        padding: 2rem;
       }
     }
   }
