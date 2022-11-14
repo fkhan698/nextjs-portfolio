@@ -1,7 +1,7 @@
 import React from "react";
-import Blog from "../components/Blog/Blog";
-const blog = () => {
-  return <Blog />;
+import type { NextPage } from "next";
+import BlogLayout from "../layouts/BlogLayout";
+const Blog: NextPage = () => {
+  return <BlogLayout></BlogLayout>
 };
-
-export default blog;
+export default Blog;

@@ -17,8 +17,12 @@ const Header = () => {
         </ul>
 
         <div className={styles.icons}>
-          <FaInstagram size="40px" />
-          <FaLinkedin size="40px" />
+          <Link href="https://www.instagram.com/faizankhan15/">
+            <FaInstagram size="40px" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/faizan-khan698/">
+            <FaLinkedin size="40px" />
+          </Link>
         </div>
       </div>
       <SideMenu />
